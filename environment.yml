@@ -1,0 +1,13 @@
+name: penguins
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - palmerpenguins
+  - pandas
+  - nbstripout
+  - ipykernel
+  - matplotlib
+  - seaborn
+  - scikit-learn
+prefix: /opt/miniconda3/envs/penguins
