@@ -30,7 +30,6 @@ Los pasos van numerados de corrido. El conjunto de prueba del paso 3 no se usa h
 3. Separar el 20 % de los datos como prueba final (semilla 42, estratificada por especie) y no tocarlo hasta el paso 10.
 
 ### Parte B. Enfoque no supervisado, sin usar la especie (niveles 2 a 4)
-
 4. Con el 80 % restante (entrenamiento), estandarizar las variables y aplicar PCA. Indicar cuánta varianza explican las dos primeras componentes e interpretar los loadings.
 5. Aplicar K-means sobre las dos primeras componentes con k de 2 a 6, y elegir k con el codo y la silueta.
 6. Comparar los grupos obtenidos con la especie real mediante una tabla de contingencia.
